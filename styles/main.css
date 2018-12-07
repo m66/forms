@@ -1,0 +1,21 @@
+* {margin: 0; padding: 0}
+body {
+    height: 882px;
+}
+.allContent, form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allContent {
+    height: 100%;
+}
+form {
+    min-height: 400px;
+    min-width: 600px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+tr {
+    height: 32px;
+}
